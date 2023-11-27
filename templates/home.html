@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+			<link rel ="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+		</head>
+
+<body>
+    <h1>Bienvenue sur notre détecteur d'émotions</h1>
+    <h2>Saisir votre texte ici (en anglais s'il vous plait!)</h2>
+    <form action="." method="POST">
+        <input type="text" name="text">
+        <button type="submit">OK</button>
+    </form>
+</body>
+</html>
